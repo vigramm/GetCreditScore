@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CBBCB132164DD4B00FCDF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCB122164DD4B00FCDF8C /* AppDelegate.swift */; };
+		5DFC4FA26FC619299601DF50 /* Pods_GetCreditScoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5BF118A5E186E184C66A7B /* Pods_GetCreditScoreTests.framework */; };
+		9607F6ADC1A0C641BB27CC5A /* Pods_GetCreditScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CEEC7DB395DD0C0DA4F89C /* Pods_GetCreditScore.framework */; };
+		9C039D372164EBDE000904C2 /* getEndpointData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C039D362164EBDD000904C2 /* getEndpointData.swift */; };
+		9C039D3921652260000904C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C039D3821652260000904C2 /* AppDelegate.swift */; };
+		9C039D3B216522EB000904C2 /* pieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C039D3A216522EB000904C2 /* pieChartView.swift */; };
+		9C69BA272164E7B700E27E1D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C69BA262164E7B700E27E1D /* Alamofire.framework */; };
 		9CBBCB152164DD4B00FCDF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCB142164DD4B00FCDF8C /* ViewController.swift */; };
 		9CBBCB182164DD4B00FCDF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBBCB162164DD4B00FCDF8C /* Main.storyboard */; };
 		9CBBCB1A2164DD4F00FCDF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBBCB192164DD4F00FCDF8C /* Assets.xcassets */; };
 		9CBBCB1D2164DD4F00FCDF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBBCB1B2164DD4F00FCDF8C /* LaunchScreen.storyboard */; };
 		9CBBCB282164DD4F00FCDF8C /* GetCreditScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCB272164DD4F00FCDF8C /* GetCreditScoreTests.swift */; };
 		9CBBCB332164DD4F00FCDF8C /* GetCreditScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBBCB322164DD4F00FCDF8C /* GetCreditScoreUITests.swift */; };
+		A602B442BD851625EF502E9A /* Pods_GetCreditScoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BBA6E4C284649EA4766EC7 /* Pods_GetCreditScoreUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11C2EF7059D43B49934FB0EE /* Pods-GetCreditScoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetCreditScoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetCreditScoreUITests/Pods-GetCreditScoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15EA30B85FBA57335B3F6BFA /* Pods-GetCreditScoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetCreditScoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetCreditScoreUITests/Pods-GetCreditScoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E2DCEA3F42B2F1F8156A654 /* Pods-GetCreditScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetCreditScore.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetCreditScore/Pods-GetCreditScore.release.xcconfig"; sourceTree = "<group>"; };
+		488BA0222CCD00541E6DF525 /* Pods-GetCreditScoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetCreditScoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetCreditScoreTests/Pods-GetCreditScoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C039D362164EBDD000904C2 /* getEndpointData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getEndpointData.swift; sourceTree = "<group>"; };
+		9C039D3821652260000904C2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C039D3A216522EB000904C2 /* pieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pieChartView.swift; sourceTree = "<group>"; };
+		9C69BA262164E7B700E27E1D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBBCB0F2164DD4B00FCDF8C /* GetCreditScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetCreditScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CBBCB122164DD4B00FCDF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CBBCB142164DD4B00FCDF8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CBBCB172164DD4B00FCDF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CBBCB192164DD4F00FCDF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +60,11 @@
 		9CBBCB2E2164DD4F00FCDF8C /* GetCreditScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetCreditScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBBCB322164DD4F00FCDF8C /* GetCreditScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCreditScoreUITests.swift; sourceTree = "<group>"; };
 		9CBBCB342164DD4F00FCDF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11626AAAA7101809D6E5F10 /* Pods-GetCreditScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetCreditScore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetCreditScore/Pods-GetCreditScore.debug.xcconfig"; sourceTree = "<group>"; };
+		C3BBA6E4C284649EA4766EC7 /* Pods_GetCreditScoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetCreditScoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CEEC7DB395DD0C0DA4F89C /* Pods_GetCreditScore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetCreditScore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5BF118A5E186E184C66A7B /* Pods_GetCreditScoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetCreditScoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9050A6AC753C42C06BF8D35 /* Pods-GetCreditScoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetCreditScoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetCreditScoreTests/Pods-GetCreditScoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C69BA272164E7B700E27E1D /* Alamofire.framework in Frameworks */,
+				9607F6ADC1A0C641BB27CC5A /* Pods_GetCreditScore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFC4FA26FC619299601DF50 /* Pods_GetCreditScoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A602B442BD851625EF502E9A /* Pods_GetCreditScoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051597979B65B6C384FC1E4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B11626AAAA7101809D6E5F10 /* Pods-GetCreditScore.debug.xcconfig */,
+				3E2DCEA3F42B2F1F8156A654 /* Pods-GetCreditScore.release.xcconfig */,
+				F9050A6AC753C42C06BF8D35 /* Pods-GetCreditScoreTests.debug.xcconfig */,
+				488BA0222CCD00541E6DF525 /* Pods-GetCreditScoreTests.release.xcconfig */,
+				15EA30B85FBA57335B3F6BFA /* Pods-GetCreditScoreUITests.debug.xcconfig */,
+				11C2EF7059D43B49934FB0EE /* Pods-GetCreditScoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DABB10605FDDF628229520A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C69BA262164E7B700E27E1D /* Alamofire.framework */,
+				C9CEEC7DB395DD0C0DA4F89C /* Pods_GetCreditScore.framework */,
+				CC5BF118A5E186E184C66A7B /* Pods_GetCreditScoreTests.framework */,
+				C3BBA6E4C284649EA4766EC7 /* Pods_GetCreditScoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CBBCB062164DD4B00FCDF8C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				9CBBCB262164DD4F00FCDF8C /* GetCreditScoreTests */,
 				9CBBCB312164DD4F00FCDF8C /* GetCreditScoreUITests */,
 				9CBBCB102164DD4B00FCDF8C /* Products */,
+				051597979B65B6C384FC1E4A /* Pods */,
+				6DABB10605FDDF628229520A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +145,10 @@
 		9CBBCB112164DD4B00FCDF8C /* GetCreditScore */ = {
 			isa = PBXGroup;
 			children = (
-				9CBBCB122164DD4B00FCDF8C /* AppDelegate.swift */,
+				9C039D3821652260000904C2 /* AppDelegate.swift */,
 				9CBBCB142164DD4B00FCDF8C /* ViewController.swift */,
+				9C039D362164EBDD000904C2 /* getEndpointData.swift */,
+				9C039D3A216522EB000904C2 /* pieChartView.swift */,
 				9CBBCB162164DD4B00FCDF8C /* Main.storyboard */,
 				9CBBCB192164DD4F00FCDF8C /* Assets.xcassets */,
 				9CBBCB1B2164DD4F00FCDF8C /* LaunchScreen.storyboard */,
@@ -132,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBBCB372164DD4F00FCDF8C /* Build configuration list for PBXNativeTarget "GetCreditScore" */;
 			buildPhases = (
+				F30D705F0561D218CBB89C74 /* [CP] Check Pods Manifest.lock */,
 				9CBBCB0B2164DD4B00FCDF8C /* Sources */,
 				9CBBCB0C2164DD4B00FCDF8C /* Frameworks */,
 				9CBBCB0D2164DD4B00FCDF8C /* Resources */,
+				4843DD4B2880FE3A7D7E2696 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBBCB3A2164DD4F00FCDF8C /* Build configuration list for PBXNativeTarget "GetCreditScoreTests" */;
 			buildPhases = (
+				CB6D5CEF033585381B69FE18 /* [CP] Check Pods Manifest.lock */,
 				9CBBCB1F2164DD4F00FCDF8C /* Sources */,
 				9CBBCB202164DD4F00FCDF8C /* Frameworks */,
 				9CBBCB212164DD4F00FCDF8C /* Resources */,
@@ -167,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBBCB3D2164DD4F00FCDF8C /* Build configuration list for PBXNativeTarget "GetCreditScoreUITests" */;
 			buildPhases = (
+				6EA40E358B9B119DA48B9FAB /* [CP] Check Pods Manifest.lock */,
 				9CBBCB2A2164DD4F00FCDF8C /* Sources */,
 				9CBBCB2B2164DD4F00FCDF8C /* Frameworks */,
 				9CBBCB2C2164DD4F00FCDF8C /* Resources */,
@@ -251,13 +305,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4843DD4B2880FE3A7D7E2696 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GetCreditScore/Pods-GetCreditScore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetCreditScore/Pods-GetCreditScore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA40E358B9B119DA48B9FAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetCreditScoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6D5CEF033585381B69FE18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetCreditScoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F30D705F0561D218CBB89C74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetCreditScore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CBBCB0B2164DD4B00FCDF8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C039D3B216522EB000904C2 /* pieChartView.swift in Sources */,
+				9C039D3921652260000904C2 /* AppDelegate.swift in Sources */,
+				9C039D372164EBDE000904C2 /* getEndpointData.swift in Sources */,
 				9CBBCB152164DD4B00FCDF8C /* ViewController.swift in Sources */,
-				9CBBCB132164DD4B00FCDF8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +563,7 @@
 		};
 		9CBBCB382164DD4F00FCDF8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11626AAAA7101809D6E5F10 /* Pods-GetCreditScore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +582,7 @@
 		};
 		9CBBCB392164DD4F00FCDF8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2DCEA3F42B2F1F8156A654 /* Pods-GetCreditScore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +601,7 @@
 		};
 		9CBBCB3B2164DD4F00FCDF8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9050A6AC753C42C06BF8D35 /* Pods-GetCreditScoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +623,7 @@
 		};
 		9CBBCB3C2164DD4F00FCDF8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488BA0222CCD00541E6DF525 /* Pods-GetCreditScoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +645,7 @@
 		};
 		9CBBCB3E2164DD4F00FCDF8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EA30B85FBA57335B3F6BFA /* Pods-GetCreditScoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +666,7 @@
 		};
 		9CBBCB3F2164DD4F00FCDF8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C2EF7059D43B49934FB0EE /* Pods-GetCreditScoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
